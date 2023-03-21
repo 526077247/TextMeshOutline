@@ -1,0 +1,17 @@
+/Library
+/Logs
+/obj
+/Build
+/Temp
+/Build-Release
+/.vs
+/copydll.bat
+/Debug
+/.idea/
+/Assets/StreamingAssets/HotFix.dll
+/update_unity_libil2cpp.bat
+/*.csproj
+/*.sln
+/Assembly-CSharp-Editor.csproj.user
+/ProjectSettings/ProjectVersion.txt
+/ProjectSettings/ProjectSettings.asset
