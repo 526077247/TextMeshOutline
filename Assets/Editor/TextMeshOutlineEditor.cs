@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-
+using TMPro;
 public class TextMeshOutlineEditor : Editor 
 {
     [MenuItem("TextMeshText/Random")]
@@ -13,7 +13,7 @@ public class TextMeshOutlineEditor : Editor
         {
             return;
         }
-        TestTeshMeshUV[] tests = root.GetComponentsInChildren<TestTeshMeshUV>(true);
+        TextMeshProOutLine[] tests = root.GetComponentsInChildren<TextMeshProOutLine>(true);
         for (int i = 0; i < tests.Length; i++)
         {
             float u = Random.Range(0f, 1f);

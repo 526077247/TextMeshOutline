@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 public class TestHandler : MonoBehaviour
 {
     [Header("显示mobile shader示例")]
@@ -72,7 +72,7 @@ public class TestHandler : MonoBehaviour
         {
             return;
         }
-        TestTeshMeshUV[] tests = root.GetComponentsInChildren<TestTeshMeshUV>(true);
+        TextMeshProOutLine[] tests = root.GetComponentsInChildren<TextMeshProOutLine>(true);
         for (int i = 0; i < tests.Length; i++)
         {
             float u = Random.Range(0f, 1f);
