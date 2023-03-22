@@ -1,3 +1,5 @@
+# 相较于master版本，此分支把TextMeshPro升级到了3.0.6
+
 # TextMeshOutline
 TextMeshPro描边投影优化
 
